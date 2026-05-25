@@ -19,6 +19,14 @@
             line-height: 1.6;
             padding: 20px;
         }
+        body > div {
+            max-width: 900px;
+            margin: 0 auto 40px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
         html {
             scroll-behavior: smooth;
         }
@@ -37,6 +45,15 @@
         header p{
             font-size: 1.1rem;
             color: #555;
+        }
+        .img-comida {
+            display: block;
+            width: 100%;
+            max-width: 200px;
+            height: 140px;
+            object-fit: cover;
+            margin: 8px 0;
+            border-radius: 8px;
         }
         footer{
             max-width: 900px;
@@ -90,15 +107,23 @@
         <p>A culinária brasileira é rica, saborosa e diversificada. Cada um dos estados brasileiros tem seus pratos típicos, preparados de acordo com antigas tradições, que são transmitidas a cada geração.Alguns exemplos dessas comidas são:</p>
         <ul>
             <li>Baião de dois
-            <img src="https://www.receitasnestle.com.br/sites/default/files/styles/recipe_detail_desktop_new/public/srh_recipes/2be8a3a37512a1f02ba5499941954021.jpeg?itok=cUPDTY9i" alt="">
+            <img class="img-comida" src="https://www.receitasnestle.com.br/sites/default/files/styles/recipe_detail_desktop_new/public/srh_recipes/2be8a3a37512a1f02ba5499941954021.jpeg?itok=cUPDTY9i" alt="">
             </li>
             <li>Brigadeiro
-            
+                <img class="img-comida" src="https://guiadacozinha.com.br/wp-content/uploads/2018/10/brigadeiro-tradicional.jpg" alt="">
             </li>
-            <li>Canjica/Chá de burro</li>
-            <li>Bolo de tapioca</li>
-            <li>Cuscuz nordestino</li>
-            <li>Feijoada</li>
+            <li>Canjica/Chá de burro
+                <img class="img-comida" src="https://cdn0.tudoreceitas.com/pt/posts/6/4/7/como_fazer_canjica_amarela_10746_1200.jpg" alt="">
+            </li>
+            <li>Bolo de tapioca
+                <img class="img-comida" src="https://www.estadao.com.br/resizer/wbm9ge7QAOMJOKG_TZzIwWzIXHs=/arc-anglerfish-arc2-prod-estadao/public/PADI362E75N5FDATBTKCCP7PLA.jpg" alt="">
+            </li>
+            <li>Cuscuz nordestino
+                <img class="img-comida" src="https://panelaterapia.com/wp-content/uploads/2023/08/receita-de-cuscuz-doce.jpg" alt="">
+            </li>
+            <li>Feijoada
+                <img class="img-comida" src="https://areademulher.r7.com/wp-content/uploads/2022/03/feijoada-receita-completa-tradicional.jpg" alt="">
+            </li>
         </ul>
     </div>
     <div>
