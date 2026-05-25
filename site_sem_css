@@ -4,9 +4,68 @@
     <meta charset="UTF-8">
     <meta name="Meu Site" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <style>
-       
-       
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;}
+        body{
+            font-family:'Nunito', sans-serif;
+            background-color: #f7f3ed;
+            color: #333333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        header{
+            max-width: 900px;
+            margin: 0 auto 30px auto;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1{
+            color: #2b5c3f;
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            font-weight: 900;
+        }
+        header p{
+            font-size: 1.1rem;
+            color: #555;
+        }
+        footer{
+            max-width: 900px;
+            margin: 40px auto 10px auto;
+            border-top: 2px solid #e0dacb;
+            padding-top: 20px;
+            text-align: center;
+        }
+        footer p{
+            font-weight: 700;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        footer ul{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 0;
+        }
+        footer li{
+            background-color: #2b5c3f;
+            color: white;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
     </style>
 </head>
 <header>
@@ -80,12 +139,12 @@
     <p>Trabalho realizado por:</p>
     <ul>
         <li>Felipe Alison Lima Damasceno</li>
-        <li>Mábya</li>
-        <li>Francine</li>
-        <li>Sofia</li>
-        <li>Nayara</li>
-        <li>Thainara</li>
-        <li>Marina</li>
+        <li>Mábya Rodrigues Vilarinho</li>
+        <li>Francine Soares de Sousa</li>
+        <li>Sofia de Sousa Carvalho</li>
+        <li>Nayara Luane Marques da Silva</li>
+        <li>Thainara Vitória de Sousa Oliveira</li>
+        <li>Marina Lopes de Carvalho</li>
     </ul>
 </footer>
 </html>
